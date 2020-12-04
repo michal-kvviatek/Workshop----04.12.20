@@ -1,0 +1,138 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
+
+.pageHeader {
+    height: 70px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: rgba(8, 166, 228, 1);
+    text-align: left;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+
+.topNav {
+    display: flex;
+}
+
+.topMenu {
+    padding: 0 28px;
+}
+
+.topMenu:last-child {
+    padding-right: 136px;
+}
+
+.links {
+    font-family: "Open Sans bold", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 28px 47px 28px;;
+    color: #08A6E4;
+    text-align: left;
+    line-height: 15;
+    color: rgba(165, 165, 165, 1);
+    border-bottom: 4px solid transparent;
+    }
+
+.links:hover {
+    border-bottom: 4px solid rgba(8, 166, 228, 1);
+    color: #222222;
+}
+
+
+
+
+.openShop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.openShopDiv {
+    padding-top: 130px;
+    text-align: center;
+}
+
+.sellMore {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 1);
+    font-size: 49px;
+    padding-bottom: 20px;
+}
+
+.openShop {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.btn {
+    width: 440px;
+    height: 67px;
+    background-color: rgba(8, 166, 228, 1);
+    border-radius: 40px;
+    box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
+    padding-top: 38px;
+}
+
+.btnBig {
+    padding: 22px 157px 23px 157px;
+}
+
+.openShopDiv p {
+    padding-bottom: 60px;
+}
+
+.openShopDiv a {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+p .btnOpenYourShop {
+    /*width: 440px;*/
+    /*height: 67px;*/
+    background-color: rgba(8, 166, 228, 1);
+    border-radius: 40px;
+    box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.topBg {
+    width: 100%;
+    height: auto;
+}
