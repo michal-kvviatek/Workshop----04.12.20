@@ -136,3 +136,185 @@ p .btnOpenYourShop {
     width: 100%;
     height: auto;
 }
+
+
+
+.mainSection {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px -5px 80px rgba(0, 0, 0, 0.16);
+}
+
+.platformSales h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.circle {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+box {
+    width: 33.3%;
+    height: auto;
+    text-align: center;
+}
+
+
+.salesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-right: 391px;
+    padding-left: 412px;
+}
+
+
+.numbers {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pageBottom {
+    width: 1352px;
+    height: 89px;
+}
+
+.bottomPage {
+    width: 100%;
+    background-color: rgba(247, 247, 247, 1);
+    box-shadow:  0px -5px 40px rgba(0, 0, 0, 0.16);
+    display: flex;
+}
+.bottomLogo p{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.bottomPage p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 6px 1275px 17px 137px;
+    color: rgba(165, 165, 165, 1);
+}
+
+.bottomLogo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    padding: 20px 1170px 0px 137px;
+    color: rgba(8, 166, 228, 1);
+}
+
+.twitterIcon .fbIcon {
+    width: 24px;
+    height: 24px;
+    padding: 35px 0 30px 0;
+    float: right;
+}
+
+.fbIcon {
+    padding-right: 136px;
+    padding-left: 20px;
+}
+
+.btmRight {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.platformSales .box {*/
+/*    display: flex;*/
+/*    flex-display: block;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.circlesDiv {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    flex-direction: row;*/
+/*    align-items: center;*/
+/*    padding: 0 391px 122px 412px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.circlesContainer {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    !*padding-right: 391px;*!*/
+/*}*/
+
+/*.circles {*/
+/*    width: 63px;*/
+/*    height: 63px;*/
+/*    border-radius: 50%;*/
+/*    border: 1px solid orange;*/
+/*}*/
+
+/*.circles1 {*/
+/*    background-color: rgba(251, 59, 100, 1);*/
+/*    position: relative;*/
+/*    padding-bottom: 30px;*/
+/*    border: none;*/
+/*}*/
+
+
+
