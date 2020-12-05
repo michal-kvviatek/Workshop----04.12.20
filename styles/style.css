@@ -159,10 +159,8 @@ p .btnOpenYourShop {
     width: 63px;
     height: 63px;
     border-radius: 50%;
-    border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
 
 }
 
@@ -189,9 +187,47 @@ box {
     color: rgba(0, 0, 0, 1);
     letter-spacing: 6px;
     text-align: center;
+    padding-top: 20px;
 }
 
+.p-circles {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: rgba(165, 165, 165, 1);
+    font-size: 17px;
+    padding-top: 19px;
+    padding-bottom: 121px;
+}
 
+.circle1 {
+    background-color: rgba(251, 59, 100, 1);
+}
+
+.circle2 {
+    background-color: rgba(8, 166, 228, 1);
+}
+
+.circle3 {
+    background-color: rgba(85, 223, 180, 1);
+}
+
+.personIcon {
+    position: absolute;
+    padding-top: 3px;
+    margin-left: -4px;
+}
+
+.eyeIcon {
+    position: absolute;
+    padding-top: 15px;
+    margin-left: -11px;
+}
+
+.postsIcon {
+    position: absolute;
+    padding-top: 7px;
+    padding-left: 1px;
+}
 
 
 
