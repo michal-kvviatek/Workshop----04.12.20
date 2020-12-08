@@ -16,13 +16,19 @@ h2 {
 }
 
 .container {
-    width: 1352px;
+    width: 100%;
+    max-width: 1352px;
     margin: 0 auto;
 }
+
+
+/*----PAGE HEADER----*/
+
 
 .pageHeader {
     height: 70px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    display: flex;
 }
 
 .headerContainer {
@@ -30,6 +36,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    width: 100%;
 }
 
 .logo {
@@ -40,7 +47,11 @@ h2 {
     text-align: left;
     letter-spacing: 0;
     text-decoration: none;
+    padding: 16px 0 17px 136px;
 }
+
+
+/*----NAV----*/
 
 
 .topNav {
@@ -130,8 +141,6 @@ h2 {
 }
 
 p .btnOpenYourShop {
-    /*width: 440px;*/
-    /*height: 67px;*/
     background-color: rgba(8, 166, 228, 1);
     border-radius: 40px;
     box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
@@ -239,71 +248,6 @@ box {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.pageBottom {
-    width: 1352px;
-    height: 89px;
-}
-
-.bottomPage {
-    width: 100%;
-    background-color: rgba(247, 247, 247, 1);
-    box-shadow:  0px -5px 40px rgba(0, 0, 0, 0.16);
-    display: flex;
-}
-
-.bottomPage p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    padding: 6px 1275px 17px 137px;
-    color: rgba(165, 165, 165, 1);
-}
-
-.bottomLogo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 26px;
-    padding: 20px 1170px 0px 137px;
-    color: rgba(8, 166, 228, 1);
-}
-
-.twitterIcon .fbIcon a{
-    width: 24px;
-    height: 24px;
-    padding: 35px 0 30px 0;
-    float: right;
-}
-
-.fbIcon {
-    padding-right: 136px;
-    padding-left: 20px;
-}
-
-.btmRight {
-    display: flex;
-    flex-direction: row;
-}
-
-
-
-
 .middle {
     padding-top: 105px;
     background-color: rgba(247, 247, 247, 1);
@@ -353,6 +297,7 @@ box {
 }
 
 .rotatedDiv {
+    display: block;
     position: absolute;
     background-color: rgba(251, 59, 100, 1);
     border-radius: 41px;
@@ -391,7 +336,9 @@ box {
 .yourShopText {
     box-sizing: content-box;
     max-width: 416px;
-    margin: 69px 20px 71px;
+    margin: 69px 20px 71px 192px;
+    display: flex;
+    flex-direction: column;
 }
 
 .middleDescription {
@@ -407,5 +354,108 @@ box {
     border-radius: 50%;
     background-color: rgba(7, 172, 230, 1);
     margin-top: 12px;
-
 }
+
+.yourShopText .line  {
+    border: 2px solid rgba(8, 166, 228, 1);
+    background-color: rgba(8, 166, 228, 1);
+}
+
+.increaseRec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 38px 71px;
+    padding-bottom: 105px;
+}
+
+.increaseRecognition {
+    width: 623px;
+    height: 370px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(232, 233, 237, 1);
+}
+
+.increaseRecognition h2 {
+    padding: 70px 0 0 35px;
+}
+
+.increaseRecognition p {
+    margin: 30px 36px;
+}
+
+.increaseRecognition .line {
+    background-color: rgba(85, 223, 180, 1);
+    border: 2px solid rgba(85, 223, 180, 1);
+    margin: 44px 0 71px 36px;
+}
+
+.trumpet {
+    width: 440px;
+    height: 371px;
+    background-color: rgba(85, 223, 180, 1);
+    border: 1px solid rgba(232, 233, 237, 1);
+}
+
+.trumpet-img {
+    width: 296px;
+    height: 208px;
+    margin: 98px 82px;
+}
+
+
+
+
+
+/*----FOTTER----*/
+
+
+
+.pageBottom {
+    width: 1352px;
+    height: 89px;
+}
+
+.bottomPage {
+    width: 100%;
+    height: 89px;
+    background-color: rgba(247, 247, 247, 1);
+    box-shadow: 0px -5px 40px rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0 137px;
+}
+
+.bottomPage p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgba(165, 165, 165, 1);
+    margin: 6px 0 17px 0;
+}
+
+.bottomLogo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    color: rgba(8, 166, 228, 1);
+}
+
+.twitterIcon .fbIcon a{
+
+    width: 24px;
+    height: 24px;
+    padding: 35px 0 30px 0;
+    float: right;
+}
+
+.fbIcon {
+    padding-right: 136px;
+    padding-left: 20px;
+}
+
+.btmRight {
+    display: flex;
+    flex-direction: row;
+}
+
