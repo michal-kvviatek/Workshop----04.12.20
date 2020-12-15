@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68048cea-50f6-4652-a62f-ce829a99d934" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
@@ -22,7 +25,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ONL_FER_S_01_Zaawansowany_HTML_i_CSS/09_Dzien_5_Gotowy_Warsztat/index.html" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -39,6 +43,15 @@
       <workItem from="1607242574909" duration="17401000" />
       <workItem from="1607285928789" duration="2999000" />
       <workItem from="1607325779102" duration="1737000" />
+      <workItem from="1607421996582" duration="93000" />
+      <workItem from="1607621240752" duration="3077000" />
+      <workItem from="1607673032357" duration="12471000" />
+      <workItem from="1607698363721" duration="1961000" />
+      <workItem from="1607700551358" duration="17000" />
+      <workItem from="1607771683117" duration="30000" />
+      <workItem from="1607771714634" duration="45000" />
+      <workItem from="1607771804579" duration="252000" />
+      <workItem from="1608028267838" duration="4033000" />
     </task>
     <servers />
   </component>
