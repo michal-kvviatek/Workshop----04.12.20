@@ -1,0 +1,17 @@
+.pageHeader {
+  &headerContainer {
+    @include phone {
+      width: 100%;
+      height: auto;
+    }
+      &.logo {
+        font-family: $primary-font;
+        font-weight: 400;
+        font-size: 3.2rem;
+        color: $primary-color;
+        background-color: $primary-color;
+
+      }
+    }
+  }
+

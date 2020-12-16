@@ -1,0 +1,701 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    color: rgba(0, 0, 0, 1);
+    padding-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1352px;
+    margin: 0 auto;
+}
+
+
+/*----PAGE HEADER----*/
+
+
+.pageHeader {
+    height: 70px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    display: flex;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    color: rgba(8, 166, 228, 1);
+    text-align: left;
+    letter-spacing: 0;
+    text-decoration: none;
+    padding: 16px 0 17px 136px;
+}
+
+
+/*----NAV----*/
+
+
+.topNav {
+    display: flex;
+}
+
+.topMenu {
+    padding: 0 28px;
+}
+
+.topMenu:last-child {
+    padding-right: 136px;
+}
+
+.links {
+    font-family: "Open Sans bold", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 28px 47px 28px;;
+    color: #08A6E4;
+    text-align: left;
+    line-height: 15;
+    color: rgba(165, 165, 165, 1);
+    border-bottom: 4px solid transparent;
+}
+
+.links:hover {
+    border-bottom: 4px solid rgba(8, 166, 228, 1);
+    color: #222222;
+}
+
+
+.openShop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.openShopDiv {
+    padding-top: 130px;
+    text-align: center;
+}
+
+.sellMore {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 1);
+    font-size: 49px;
+    padding-bottom: 20px;
+}
+
+.openShop {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.btn {
+    width: 440px;
+    height: 67px;
+    background-color: rgba(8, 166, 228, 1);
+    border-radius: 40px;
+    box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
+    padding-top: 38px;
+}
+
+.btnBig {
+    padding: 22px 157px 23px 157px;
+}
+
+.openShopDiv p {
+    padding-bottom: 60px;
+}
+
+.openShopDiv a {
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+p .btnOpenYourShop {
+    background-color: rgba(8, 166, 228, 1);
+    border-radius: 40px;
+    box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.topBg {
+    width: 100%;
+    height: auto;
+}
+
+
+.mainSection {
+    width: 100%;
+    height: auto;
+    box-shadow: 0px -5px 80px rgba(0, 0, 0, 0.16);
+}
+
+.platformSales h2 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.circle {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+box {
+    width: 33.3%;
+    height: auto;
+    text-align: center;
+}
+
+
+.salesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-right: 391px;
+    padding-left: 412px;
+}
+
+
+.numbers {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 6px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.p-circles {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: rgba(165, 165, 165, 1);
+    font-size: 17px;
+    padding-top: 19px;
+    padding-bottom: 121px;
+}
+
+.circle1 {
+    background-color: rgba(251, 59, 100, 1);
+}
+
+.circle2 {
+    background-color: rgba(8, 166, 228, 1);
+}
+
+.circle3 {
+    background-color: rgba(85, 223, 180, 1);
+}
+
+.personIcon {
+    position: absolute;
+    padding-top: 3px;
+    margin-left: -4px;
+}
+
+.eyeIcon {
+    position: absolute;
+    padding-top: 15px;
+    margin-left: -11px;
+}
+
+.postsIcon {
+    position: absolute;
+    padding-top: 7px;
+    padding-left: 1px;
+}
+
+/*===========================================================middle*/
+.middle {
+    padding-top: 105px;
+    background-color: rgba(247, 247, 247, 1);
+}
+
+.beAlwaysFirst {
+    display: flex;
+    justify-content: space-around;
+    height: 370px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(232, 233, 237, 1);
+    border-radius: 5px;
+    margin: 38px 71px;
+}
+
+.BeAlwaysFirst-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 91px;
+    box-sizing: content-box;
+    max-width: 416px;
+}
+
+.line {
+    position: relative;
+    width: 328px;
+    height: 0;
+    background-color: rgba(251, 59, 100, 1);
+    border: 2px solid rgba(251, 59, 100, 1);
+    margin-top: 50px;
+}
+
+
+.beAlways-img {
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: content-box;
+    max-width: 433px;
+    margin: 75px 46px
+}
+
+.beAlways-img img {
+    margin: 10px;
+}
+
+.laptop {
+    padding-top: 20px;
+}
+
+.rotatedDiv {
+    display: block;
+    position: absolute;
+    background-color: rgba(251, 59, 100, 1);
+    border-radius: 41px;
+    transform: rotate(45deg);
+    width: 180px;
+    height: 180px;
+    margin: -30px;
+    z-index: 2;
+}
+
+.beAlways-img img {
+    width: 386px;
+    height: auto;
+    z-index: 2;
+}
+
+.yourShop {
+    height: 370px;
+    display: flex;
+    justify-content: space-around;
+    /*align-items: flex-end;*/
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(232, 233, 237, 1);
+    border-radius: 5px;
+    margin: 38px 71px;
+}
+
+.mobile-img img {
+    position: absolute;
+    box-sizing: content-box;
+    max-width: 426px;
+    margin-top: 29px;
+    margin-bottom: 13px;
+}
+
+.yourShopText {
+    box-sizing: content-box;
+    max-width: 416px;
+    margin: 69px 20px 71px 192px;
+    display: flex;
+    flex-direction: column;
+}
+
+.middleDescription {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+}
+
+.bigCircle {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background-color: rgba(7, 172, 230, 1);
+    margin-top: 12px;
+}
+
+.yourShopText .line {
+    border: 2px solid rgba(8, 166, 228, 1);
+    background-color: rgba(8, 166, 228, 1);
+}
+
+.increaseRec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 38px 71px;
+    padding-bottom: 105px;
+}
+
+.increaseRecognition {
+    width: 623px;
+    height: 370px;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(232, 233, 237, 1);
+}
+
+.increaseRecognition h2 {
+    padding: 70px 0 0 35px;
+}
+
+.increaseRecognition p {
+    margin: 30px 36px;
+}
+
+.increaseRecognition .line {
+    background-color: rgba(85, 223, 180, 1);
+    border: 2px solid rgba(85, 223, 180, 1);
+    margin: 44px 0 71px 36px;
+}
+
+.trumpet {
+    width: 440px;
+    height: 371px;
+    background-color: rgba(85, 223, 180, 1);
+    border: 1px solid rgba(232, 233, 237, 1);
+}
+
+.trumpet-img {
+    width: 296px;
+    height: 208px;
+    margin: 98px 82px;
+}
+
+
+/*----------Pricing-----------*/
+
+.prices {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2_pricing__container {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.basic__box {
+    width: 372px;
+    height: 461px;
+    border: 1px solid rgba(251, 59, 100, 1);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pricing__plan {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 34px;
+    color: rgba(19, 37, 59, 1);
+}
+
+.price__dolar {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 46px;
+    color: rgba(251, 59, 100, 1);
+    margin-top: 14px;
+    padding: 20px;
+}
+
+.price__list-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.price__list-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+    line-height: 40px;
+    margin-top: 50px;
+}
+
+.price__list-3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+
+
+
+/*======================================================buttons*/
+
+.btn__begin {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.basic {
+    background-color: rgba(235, 71, 110, 1);
+    top: 108px;
+}
+.professional {
+    background-color: rgba(7, 172, 230, 1);
+    top: 48px;
+}
+.premium {
+    background-color: rgba(85, 223, 180, 1);
+    top: 87px;
+}
+
+/*======================================================buttons*/
+
+.professional__box {
+    width: 405px;
+    height: 500px;
+    border: 1px solid rgba(7, 172, 230, 1);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 59px 0 59px;
+}
+
+.limited-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 10px;
+
+}
+
+.premium__box {
+    width: 372px;
+    height: 461px;
+    border: 1px solid rgba(85, 223, 180, 1);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+/*==============================================Email Section*/
+
+.email__section {
+    width: 896px;
+    height: 376px;
+    margin: 155px auto 59px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.questions a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(165, 165, 165, 1);
+
+}
+.small__icon, .small__icon2 {
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.h2__questions {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 49px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+}
+
+.h4__questions {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 42px;
+}
+
+.sent_email {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.span__email {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: rgba(8, 166, 228, 1);
+}
+
+.input {
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid rgba(149, 152, 154, 1);
+    margin-bottom: 30px;
+}
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkbox {
+    cursor: pointer;
+    display: flex;
+}
+
+.checkbox span {
+    height: 24px;
+    flex-shrink: 0;
+    flex-basis: 24px;
+    border: 1px solid rgba(149, 152, 154, 1);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.checkbox input:checked + span {
+    background-image: url("../assets/Checkmark.svg");
+    background-size: cover;
+}
+
+.form {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: rgba(112, 112, 112, 1);
+}
+
+.send {
+    background-color: rgba(8, 166, 228, 1);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    height: 57px;
+    width: 226px;
+    border-radius: 35px;
+    box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
+    margin: 20px 1px 0 213px;
+
+}
+
+
+
+/*----FOTTER----*/
+
+
+.pageBottom {
+    width: 1352px;
+    height: 89px;
+}
+
+.bottomPage {
+    width: 100%;
+    height: 89px;
+    background-color: rgba(247, 247, 247, 1);
+    box-shadow: 0px -5px 40px rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0 137px;
+}
+
+.bottomPage p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: rgba(165, 165, 165, 1);
+    margin: 6px 0 17px 0;
+}
+
+.bottomLogo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    color: rgba(8, 166, 228, 1);
+}
+
+.twitterIcon .fbIcon a {
+
+    width: 24px;
+    height: 24px;
+    padding: 35px 0 30px 0;
+    float: right;
+}
+
+.fbIcon {
+    padding-right: 136px;
+    padding-left: 20px;
+}
+
+.btmRight {
+    display: flex;
+    flex-direction: row;
+}

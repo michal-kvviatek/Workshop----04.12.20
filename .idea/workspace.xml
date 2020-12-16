@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68048cea-50f6-4652-a62f-ce829a99d934" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/elements/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/elements/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/settings/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/settings/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +28,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/ONL_FER_S_01_Sass_RWD" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -51,7 +53,7 @@
       <workItem from="1607771683117" duration="30000" />
       <workItem from="1607771714634" duration="45000" />
       <workItem from="1607771804579" duration="252000" />
-      <workItem from="1608028267838" duration="4033000" />
+      <workItem from="1608028267838" duration="8136000" />
     </task>
     <servers />
   </component>
